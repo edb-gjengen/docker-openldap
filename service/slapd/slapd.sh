@@ -86,4 +86,4 @@ fi
 status "starting slapd on default port 389"
 set -x
 
-exec /usr/sbin/slapd -h "ldap:///" -u openldap -g openldap -d -1
+exec /usr/sbin/slapd -h "ldap:/// ldapi:///" -u openldap -g openldap -d -1

@@ -1,4 +1,4 @@
-NAME = osixia/openldap
+NAME = nikolaik/openldap
 VERSION = 0.9.2
 
 .PHONY: all build test tag_latest release

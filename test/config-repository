@@ -1,4 +1,4 @@
-testImage=osixia/openldap:latest
+testImage=nikolaik/openldap:latest
 testContainer=openldap-repository-test-container
 testDir=/osixia-repository-test-docker-openldap
 

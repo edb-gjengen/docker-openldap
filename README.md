@@ -28,6 +28,6 @@ and optionaly `dhparam.pem` this file is genereted automaticaly if not present.
                -v /data/ldap/log/:/var/log \
                -e LDAP_DOMAIN=example.com \
                -e LDAP_ORGANISATION="Example Corp." \
-               -e LDAP_ROOTPASS=toor \
+               -e LDAP_ADMIN_PWD=toor \
                -p 389:389 -d osixia/openldap
 
